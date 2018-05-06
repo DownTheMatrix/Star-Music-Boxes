@@ -23,12 +23,12 @@ function removeTransition(e) {
 
 // Heading Glow
 function glow() {
-    let heading = document.querySelector('h1');
+    const heading = document.querySelector('h1');
     heading.style.color = "blue";
 }
 
 // Remove glowing effect from heading
 function restore() {
-    let heading = document.querySelector('h1');
+    const heading = document.querySelector('h1');
     heading.style.color = "#f2f2f2";
 }
